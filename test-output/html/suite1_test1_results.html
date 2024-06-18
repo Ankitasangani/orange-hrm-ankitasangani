@@ -1,0 +1,528 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="" lang="">
+<head>
+  <title>Test Results Report - Login Test</title>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  <meta name="description" content="TestNG unit test results." />
+  <link href="reportng.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="reportng.js"></script>
+</head>
+<body>
+<h1>Login Test</h1>
+<p>
+  Test duration: 183.235s
+</p>
+
+
+
+  <table class="resultsTable">
+    <tr><th colspan="3" class="header failed">Failed Tests</th></tr>
+          <tr>
+        <td colspan="3" class="group">com.orangehrmlive.demo.testsuite.LoginTest</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  verifyThatTheLogoDisplayOnHomePage
+      </td>
+  <td class="duration">
+    21.537s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        Username[[ChromeDriver: chrome on windows (0a0a068ed81d30ef9a65d3b01ea63446)] -&gt; xpath: //body/div[@id=&apos;app&apos;]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/form[1]/div[1]/div[1]/div[2]/input[1]]<br />
+                                Password[[ChromeDriver: chrome on windows (0a0a068ed81d30ef9a65d3b01ea63446)] -&gt; xpath: //body/div[@id=&apos;app&apos;]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/form[1]/div[2]/div[1]/div[2]/input[1]]<br />
+                                Login button[[ChromeDriver: chrome on windows (0a0a068ed81d30ef9a65d3b01ea63446)] -&gt; xpath: //body/div[@id=&apos;app&apos;]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/form[1]/div[3]/button[1]]<br />
+                  </div>
+    
+
+        <a href="javascript:toggleElement('exception-0', 'block')" title="Click to expand/collapse"><b>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//body/div[@id=&apos;app&apos;]/div[1]/div[2]/div[2]/div[1]/div[2]/div[3]/div[1]/div[2]/div[8]/div[1]/div[1]/div[1]/div[1]/label[1]/span[1]/i[1]&quot;}<br/>
+&nbsp; (Session info: chrome=125.0.6422.176)<br/>
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception<br/>
+Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;<br/>
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.8&apos;<br/>
+Driver info: org.openqa.selenium.chrome.ChromeDriver<br/>
+Command: [0a0a068ed81d30ef9a65d3b01ea63446, findElement {value=//body/div[@id=&apos;app&apos;]/div[1]/div[2]/div[2]/div[1]/div[2]/div[3]/div[1]/div[2]/div[8]/div[1]/div[1]/div[1]/div[1]/label[1]/span[1]/i[1], using=xpath}]<br/>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.176, chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712..., userDataDir: C:\Users\44787\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54134}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54134/devtoo..., se:cdpVersion: 125.0.6422.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}<br/>
+Session ID: 0a0a068ed81d30ef9a65d3b01ea63446</b></a><br />
+    <div class="stackTrace" id="exception-0">
+              java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)<br />
+              java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)<br />
+              java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)<br />
+              java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)<br />
+              java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)<br />
+              org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)<br />
+              org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)<br />
+              org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)<br />
+              org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)<br />
+              org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)<br />
+              org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)<br />
+              org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)<br />
+              org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)<br />
+              org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)<br />
+              org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)<br />
+              jdk.proxy2/jdk.proxy2.$Proxy15.isDisplayed(Unknown Source)<br />
+              com.orangehrmlive.demo.pages.LoginPage.logoIsDisplayed(LoginPage.java:73)<br />
+              com.orangehrmlive.demo.testsuite.LoginTest.verifyThatTheLogoDisplayOnHomePage(LoginTest.java:40)<br />
+              java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)<br />
+              java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.base/java.lang.reflect.Method.invoke(Method.java:568)<br />
+              org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)<br />
+              org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)<br />
+              org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)<br />
+              org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)<br />
+              org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)<br />
+              org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)<br />
+              org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)<br />
+              org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)<br />
+              java.base/java.util.ArrayList.forEach(ArrayList.java:1511)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:739)<br />
+              org.testng.TestRunner.run(TestRunner.java:614)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:421)<br />
+              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)<br />
+              org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)<br />
+              org.testng.SuiteRunner.run(SuiteRunner.java:312)<br />
+              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />
+              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)<br />
+              org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)<br />
+              org.testng.TestNG.runSuitesLocally(TestNG.java:1208)<br />
+              org.testng.TestNG.runSuites(TestNG.java:1112)<br />
+              org.testng.TestNG.run(TestNG.java:1079)<br />
+              com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)<br />
+              com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)<br />
+                </div>
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.orangehrmlive.demo.testsuite.UsersTest</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  adminShouldAddUserSuccessFully
+      </td>
+  <td class="duration">
+    29.164s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        Username[[ChromeDriver: chrome on windows (6d7e805e27a31a66b58def8182d63773)] -&gt; xpath: //body/div[@id=&apos;app&apos;]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/form[1]/div[1]/div[1]/div[2]/input[1]]<br />
+                                Password[[ChromeDriver: chrome on windows (6d7e805e27a31a66b58def8182d63773)] -&gt; xpath: //body/div[@id=&apos;app&apos;]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/form[1]/div[2]/div[1]/div[2]/input[1]]<br />
+                                Login button[[ChromeDriver: chrome on windows (6d7e805e27a31a66b58def8182d63773)] -&gt; xpath: //body/div[@id=&apos;app&apos;]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/form[1]/div[3]/button[1]]<br />
+                                Admin[[ChromeDriver: chrome on windows (6d7e805e27a31a66b58def8182d63773)] -&gt; xpath: //body/div[@id=&apos;app&apos;]/div[1]/div[1]/aside[1]/nav[1]/div[2]/ul[1]/li[1]/a[1]]<br />
+                                System Users[[ChromeDriver: chrome on windows (6d7e805e27a31a66b58def8182d63773)] -&gt; tag name: h5]<br />
+                                Add[[ChromeDriver: chrome on windows (6d7e805e27a31a66b58def8182d63773)] -&gt; xpath: //body/div[@id=&apos;app&apos;]/div[1]/div[2]/div[2]/div[1]/div[2]/div[1]/button[1]]<br />
+                                Add User[[ChromeDriver: chrome on windows (6d7e805e27a31a66b58def8182d63773)] -&gt; xpath: //body/div[@id=&apos;app&apos;]/div[1]/div[2]/div[2]/div[1]/div[1]/h6[1]]<br />
+                                click [[ChromeDriver: chrome on windows (6d7e805e27a31a66b58def8182d63773)] -&gt; xpath: (//div[@class = &apos;oxd-select-wrapper&apos;])[1]]<br />
+                                click [[ChromeDriver: chrome on windows (6d7e805e27a31a66b58def8182d63773)] -&gt; xpath: //span[contains(text(),&apos;Admin&apos;)]]<br />
+                                Enter Employee Name[[ChromeDriver: chrome on windows (6d7e805e27a31a66b58def8182d63773)] -&gt; xpath: //body/div[@id=&apos;app&apos;]/div[1]/div[2]/div[2]/div[1]/div[1]/form[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/input[1]]<br />
+                                Username[[ChromeDriver: chrome on windows (6d7e805e27a31a66b58def8182d63773)] -&gt; xpath: //body/div[@id=&apos;app&apos;]/div[1]/div[2]/div[2]/div[1]/div[1]/form[1]/div[1]/div[1]/div[4]/div[1]/div[2]/input[1]]<br />
+                                select [[ChromeDriver: chrome on windows (6d7e805e27a31a66b58def8182d63773)] -&gt; xpath: (//div[@class = &apos;oxd-select-wrapper&apos;])[2]]<br />
+                                click Enabled<br />
+                                Password[[ChromeDriver: chrome on windows (6d7e805e27a31a66b58def8182d63773)] -&gt; xpath: //body/div[@id=&apos;app&apos;]/div[1]/div[2]/div[2]/div[1]/div[1]/form[1]/div[2]/div[1]/div[1]/div[1]/div[2]/input[1]]<br />
+                                Confirm Password[[ChromeDriver: chrome on windows (6d7e805e27a31a66b58def8182d63773)] -&gt; xpath: //body/div[@id=&apos;app&apos;]/div[1]/div[2]/div[2]/div[1]/div[1]/form[1]/div[2]/div[1]/div[2]/div[1]/div[2]/input[1]]<br />
+                                Save[[ChromeDriver: chrome on windows (6d7e805e27a31a66b58def8182d63773)] -&gt; xpath: //body/div[@id=&apos;app&apos;]/div[1]/div[2]/div[2]/div[1]/div[1]/form[1]/div[3]/button[2]]<br />
+                  </div>
+    
+
+        <a href="javascript:toggleElement('exception-1', 'block')" title="Click to expand/collapse"><b>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//p[@class=&apos;oxd-text oxd-text--p oxd-text--toast-message oxd-toast-content-text&apos;]&quot;}<br/>
+&nbsp; (Session info: chrome=125.0.6422.176)<br/>
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception<br/>
+Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;<br/>
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.8&apos;<br/>
+Driver info: org.openqa.selenium.chrome.ChromeDriver<br/>
+Command: [6d7e805e27a31a66b58def8182d63773, findElement {value=//p[@class=&apos;oxd-text oxd-text--p oxd-text--toast-message oxd-toast-content-text&apos;], using=xpath}]<br/>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.176, chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712..., userDataDir: C:\Users\44787\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53882}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53882/devtoo..., se:cdpVersion: 125.0.6422.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}<br/>
+Session ID: 6d7e805e27a31a66b58def8182d63773</b></a><br />
+    <div class="stackTrace" id="exception-1">
+              java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)<br />
+              java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)<br />
+              java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)<br />
+              java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)<br />
+              java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)<br />
+              org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)<br />
+              org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)<br />
+              org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)<br />
+              org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)<br />
+              org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)<br />
+              org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)<br />
+              org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)<br />
+              org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)<br />
+              org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)<br />
+              org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)<br />
+              jdk.proxy2/jdk.proxy2.$Proxy15.getText(Unknown Source)<br />
+              com.orangehrmlive.demo.utilities.Utility.getTextFromElement(Utility.java:62)<br />
+              com.orangehrmlive.demo.pages.AddUserPage.verifySuccessfullySaved(AddUserPage.java:153)<br />
+              com.orangehrmlive.demo.testsuite.UsersTest.adminShouldAddUserSuccessFully(UsersTest.java:115)<br />
+              java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)<br />
+              java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.base/java.lang.reflect.Method.invoke(Method.java:568)<br />
+              org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)<br />
+              org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)<br />
+              org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)<br />
+              org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)<br />
+              org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)<br />
+              org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)<br />
+              org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)<br />
+              org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)<br />
+              java.base/java.util.ArrayList.forEach(ArrayList.java:1511)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:739)<br />
+              org.testng.TestRunner.run(TestRunner.java:614)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:421)<br />
+              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)<br />
+              org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)<br />
+              org.testng.SuiteRunner.run(SuiteRunner.java:312)<br />
+              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />
+              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)<br />
+              org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)<br />
+              org.testng.TestNG.runSuitesLocally(TestNG.java:1208)<br />
+              org.testng.TestNG.runSuites(TestNG.java:1112)<br />
+              org.testng.TestNG.run(TestNG.java:1079)<br />
+              com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)<br />
+              com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)<br />
+                </div>
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  searchTheUserAndVerifyTheMessageRecordFound
+      </td>
+  <td class="duration">
+    66.142s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"Aman Gupta", "Admin", "Test Tester", "Enabled"</span><br />
+    
+            <div class="testOutput">
+                        Username[[ChromeDriver: chrome on windows (b80815d2183ef8df1444d84df1ceb717)] -&gt; xpath: //body/div[@id=&apos;app&apos;]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/form[1]/div[1]/div[1]/div[2]/input[1]]<br />
+                                Password[[ChromeDriver: chrome on windows (b80815d2183ef8df1444d84df1ceb717)] -&gt; xpath: //body/div[@id=&apos;app&apos;]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/form[1]/div[2]/div[1]/div[2]/input[1]]<br />
+                                Login button[[ChromeDriver: chrome on windows (b80815d2183ef8df1444d84df1ceb717)] -&gt; xpath: //body/div[@id=&apos;app&apos;]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/form[1]/div[3]/button[1]]<br />
+                                Admin[[ChromeDriver: chrome on windows (b80815d2183ef8df1444d84df1ceb717)] -&gt; xpath: //body/div[@id=&apos;app&apos;]/div[1]/div[1]/aside[1]/nav[1]/div[2]/ul[1]/li[1]/a[1]]<br />
+                                System Users[[ChromeDriver: chrome on windows (b80815d2183ef8df1444d84df1ceb717)] -&gt; tag name: h5]<br />
+                                enter Aman Gupta<br />
+                                click [[ChromeDriver: chrome on windows (b80815d2183ef8df1444d84df1ceb717)] -&gt; xpath: //div[@class = &apos;oxd-select-wrapper&apos;][1]]<br />
+                                click Admin<br />
+                                select [[ChromeDriver: chrome on windows (b80815d2183ef8df1444d84df1ceb717)] -&gt; xpath: (//div[@class = &apos;oxd-select-wrapper&apos;])[2]]<br />
+                                click Enabled<br />
+                                Search[[ChromeDriver: chrome on windows (b80815d2183ef8df1444d84df1ceb717)] -&gt; xpath: //body/div[@id=&apos;app&apos;]/div[1]/div[2]/div[2]/div[1]/div[1]/div[2]/form[1]/div[2]/button[2]]<br />
+                                get Proxy element for: DefaultElementLocator &apos;By.xpath: //span[normalize-space()=&apos;(1) Record Found&apos;]&apos;<br />
+                  </div>
+    
+
+        <a href="javascript:toggleElement('exception-2', 'block')" title="Click to expand/collapse"><b>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[normalize-space()=&apos;(1) Record Found&apos;]&quot;}<br/>
+&nbsp; (Session info: chrome=125.0.6422.176)<br/>
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception<br/>
+Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;<br/>
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.8&apos;<br/>
+Driver info: org.openqa.selenium.chrome.ChromeDriver<br/>
+Command: [b80815d2183ef8df1444d84df1ceb717, findElement {value=//span[normalize-space()=&apos;(1) Record Found&apos;], using=xpath}]<br/>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.176, chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712..., userDataDir: C:\Users\44787\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53932}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53932/devtoo..., se:cdpVersion: 125.0.6422.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}<br/>
+Session ID: b80815d2183ef8df1444d84df1ceb717</b></a><br />
+    <div class="stackTrace" id="exception-2">
+              java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)<br />
+              java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)<br />
+              java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)<br />
+              java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)<br />
+              java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)<br />
+              org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)<br />
+              org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)<br />
+              org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)<br />
+              org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)<br />
+              org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)<br />
+              org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)<br />
+              org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)<br />
+              org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)<br />
+              org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)<br />
+              org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)<br />
+              jdk.proxy2/jdk.proxy2.$Proxy15.getText(Unknown Source)<br />
+              com.orangehrmlive.demo.utilities.Utility.getTextFromElement(Utility.java:62)<br />
+              com.orangehrmlive.demo.pages.ViewSystemUsersPage.getRecordFoundText(ViewSystemUsersPage.java:312)<br />
+              com.orangehrmlive.demo.testsuite.UsersTest.searchTheUserAndVerifyTheMessageRecordFound(UsersTest.java:203)<br />
+              java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)<br />
+              java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.base/java.lang.reflect.Method.invoke(Method.java:568)<br />
+              org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)<br />
+              org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)<br />
+              org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)<br />
+              org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)<br />
+              org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)<br />
+              org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)<br />
+              org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)<br />
+              org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)<br />
+              java.base/java.util.ArrayList.forEach(ArrayList.java:1511)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:739)<br />
+              org.testng.TestRunner.run(TestRunner.java:614)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:421)<br />
+              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)<br />
+              org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)<br />
+              org.testng.SuiteRunner.run(SuiteRunner.java:312)<br />
+              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />
+              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)<br />
+              org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)<br />
+              org.testng.TestNG.runSuitesLocally(TestNG.java:1208)<br />
+              org.testng.TestNG.runSuites(TestNG.java:1112)<br />
+              org.testng.TestNG.run(TestNG.java:1079)<br />
+              com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)<br />
+              com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)<br />
+                </div>
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  searchTheUserCreatedAndVerifyIt
+      </td>
+  <td class="duration">
+    25.570s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        Username[[ChromeDriver: chrome on windows (88f2f64aecec327d72264c50b7a5c567)] -&gt; xpath: //body/div[@id=&apos;app&apos;]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/form[1]/div[1]/div[1]/div[2]/input[1]]<br />
+                                Password[[ChromeDriver: chrome on windows (88f2f64aecec327d72264c50b7a5c567)] -&gt; xpath: //body/div[@id=&apos;app&apos;]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/form[1]/div[2]/div[1]/div[2]/input[1]]<br />
+                                Login button[[ChromeDriver: chrome on windows (88f2f64aecec327d72264c50b7a5c567)] -&gt; xpath: //body/div[@id=&apos;app&apos;]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/form[1]/div[3]/button[1]]<br />
+                                Admin[[ChromeDriver: chrome on windows (88f2f64aecec327d72264c50b7a5c567)] -&gt; xpath: //body/div[@id=&apos;app&apos;]/div[1]/div[1]/aside[1]/nav[1]/div[2]/ul[1]/li[1]/a[1]]<br />
+                                System Users[[ChromeDriver: chrome on windows (88f2f64aecec327d72264c50b7a5c567)] -&gt; tag name: h5]<br />
+                                Click on user role [[ChromeDriver: chrome on windows (88f2f64aecec327d72264c50b7a5c567)] -&gt; xpath: (//div[@class = &apos;oxd-select-wrapper&apos;])[1]]<br />
+                                Click on admin role [[ChromeDriver: chrome on windows (88f2f64aecec327d72264c50b7a5c567)] -&gt; xpath: //span[contains(text(),&apos;Admin&apos;)]]<br />
+                                select [[ChromeDriver: chrome on windows (88f2f64aecec327d72264c50b7a5c567)] -&gt; xpath: (//div[@class = &apos;oxd-select-wrapper&apos;])[2]]<br />
+                                select [[ChromeDriver: chrome on windows (88f2f64aecec327d72264c50b7a5c567)] -&gt; xpath: (//div[@class = &apos;oxd-select-wrapper&apos;])[2]]<br />
+                  </div>
+    
+
+        <a href="javascript:toggleElement('exception-3', 'block')" title="Click to expand/collapse"><b>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[contains(text(),&apos;Enabled&apos;)]&quot;}<br/>
+&nbsp; (Session info: chrome=125.0.6422.176)<br/>
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception<br/>
+Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;<br/>
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.8&apos;<br/>
+Driver info: org.openqa.selenium.chrome.ChromeDriver<br/>
+Command: [88f2f64aecec327d72264c50b7a5c567, findElement {value=//span[contains(text(),&apos;Enabled&apos;)], using=xpath}]<br/>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.176, chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712..., userDataDir: C:\Users\44787\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54006}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54006/devtoo..., se:cdpVersion: 125.0.6422.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}<br/>
+Session ID: 88f2f64aecec327d72264c50b7a5c567</b></a><br />
+    <div class="stackTrace" id="exception-3">
+              java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)<br />
+              java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)<br />
+              java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)<br />
+              java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)<br />
+              java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)<br />
+              org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)<br />
+              org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)<br />
+              org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)<br />
+              org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)<br />
+              org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)<br />
+              org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)<br />
+              org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)<br />
+              org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)<br />
+              org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)<br />
+              org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)<br />
+              jdk.proxy2/jdk.proxy2.$Proxy15.click(Unknown Source)<br />
+              com.orangehrmlive.demo.utilities.Utility.clickOnElement(Utility.java:51)<br />
+              com.orangehrmlive.demo.pages.ViewSystemUsersPage.selectStatusFromDropdown(ViewSystemUsersPage.java:252)<br />
+              com.orangehrmlive.demo.testsuite.UsersTest.searchTheUserCreatedAndVerifyIt(UsersTest.java:138)<br />
+              java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)<br />
+              java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.base/java.lang.reflect.Method.invoke(Method.java:568)<br />
+              org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)<br />
+              org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)<br />
+              org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)<br />
+              org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)<br />
+              org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)<br />
+              org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)<br />
+              org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)<br />
+              org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)<br />
+              java.base/java.util.ArrayList.forEach(ArrayList.java:1511)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:739)<br />
+              org.testng.TestRunner.run(TestRunner.java:614)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:421)<br />
+              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)<br />
+              org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)<br />
+              org.testng.SuiteRunner.run(SuiteRunner.java:312)<br />
+              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />
+              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)<br />
+              org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)<br />
+              org.testng.TestNG.runSuitesLocally(TestNG.java:1208)<br />
+              org.testng.TestNG.runSuites(TestNG.java:1112)<br />
+              org.testng.TestNG.run(TestNG.java:1079)<br />
+              com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)<br />
+              com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)<br />
+                </div>
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  verifyThatAdminShouldDeleteTheUserSuccessFully
+      </td>
+  <td class="duration">
+    4.558s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        Username[[ChromeDriver: chrome on windows (9a55a7575fa6b48ea73c7287503cda5b)] -&gt; xpath: //body/div[@id=&apos;app&apos;]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/form[1]/div[1]/div[1]/div[2]/input[1]]<br />
+                                Password[[ChromeDriver: chrome on windows (9a55a7575fa6b48ea73c7287503cda5b)] -&gt; xpath: //body/div[@id=&apos;app&apos;]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/form[1]/div[2]/div[1]/div[2]/input[1]]<br />
+                                Login button[[ChromeDriver: chrome on windows (9a55a7575fa6b48ea73c7287503cda5b)] -&gt; xpath: //body/div[@id=&apos;app&apos;]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/form[1]/div[3]/button[1]]<br />
+                                Admin[[ChromeDriver: chrome on windows (9a55a7575fa6b48ea73c7287503cda5b)] -&gt; xpath: //body/div[@id=&apos;app&apos;]/div[1]/div[1]/aside[1]/nav[1]/div[2]/ul[1]/li[1]/a[1]]<br />
+                                System Users[[ChromeDriver: chrome on windows (9a55a7575fa6b48ea73c7287503cda5b)] -&gt; tag name: h5]<br />
+                                Username[[ChromeDriver: chrome on windows (9a55a7575fa6b48ea73c7287503cda5b)] -&gt; xpath: //body[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[2]/form[1]/div[1]/div[1]/div[1]/div[1]/div[2]/input[1]]<br />
+                                Click on user role [[ChromeDriver: chrome on windows (9a55a7575fa6b48ea73c7287503cda5b)] -&gt; xpath: (//div[@class = &apos;oxd-select-wrapper&apos;])[1]]<br />
+                                Click on admin role [[ChromeDriver: chrome on windows (9a55a7575fa6b48ea73c7287503cda5b)] -&gt; xpath: //span[contains(text(),&apos;Admin&apos;)]]<br />
+                  </div>
+    
+
+        <a href="javascript:toggleElement('exception-4', 'block')" title="Click to expand/collapse"><b>org.openqa.selenium.support.ui.UnexpectedTagNameException: Element should have been &quot;select&quot; but was &quot;i&quot;<br/>
+Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;<br/>
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.8&apos;<br/>
+Driver info: driver.version: unknown</b></a><br />
+    <div class="stackTrace" id="exception-4">
+              org.openqa.selenium.support.ui.Select.&lt;init&gt;(Select.java:46)<br />
+              com.orangehrmlive.demo.utilities.Utility.selectByValueFromDropDown(Utility.java:157)<br />
+              com.orangehrmlive.demo.pages.ViewSystemUsersPage.selectStatusEnabled(ViewSystemUsersPage.java:176)<br />
+              com.orangehrmlive.demo.testsuite.UsersTest.verifyThatAdminShouldDeleteTheUserSuccessFully(UsersTest.java:162)<br />
+              java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)<br />
+              java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.base/java.lang.reflect.Method.invoke(Method.java:568)<br />
+              org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)<br />
+              org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)<br />
+              org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)<br />
+              org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)<br />
+              org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)<br />
+              org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)<br />
+              org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)<br />
+              org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)<br />
+              java.base/java.util.ArrayList.forEach(ArrayList.java:1511)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:739)<br />
+              org.testng.TestRunner.run(TestRunner.java:614)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:421)<br />
+              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)<br />
+              org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)<br />
+              org.testng.SuiteRunner.run(SuiteRunner.java:312)<br />
+              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />
+              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)<br />
+              org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)<br />
+              org.testng.TestNG.runSuitesLocally(TestNG.java:1208)<br />
+              org.testng.TestNG.runSuites(TestNG.java:1112)<br />
+              org.testng.TestNG.run(TestNG.java:1079)<br />
+              com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)<br />
+              com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)<br />
+                </div>
+      </td>
+</tr>
+      </table>
+
+
+  <table class="resultsTable">
+    <tr><th colspan="3" class="header passed">Passed Tests</th></tr>
+          <tr>
+        <td colspan="3" class="group">com.orangehrmlive.demo.testsuite.LoginTest</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  verifyErrorMessageWithInvalidCredentials
+      </td>
+  <td class="duration">
+    1.498s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"test123@gmail.com", "test123 ", "Invalid credentials"</span><br />
+    
+            <div class="testOutput">
+                        Username[[ChromeDriver: chrome on windows (9eeb4bb7227956c86fc74071f5b4acbc)] -&gt; xpath: //body/div[@id=&apos;app&apos;]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/form[1]/div[1]/div[1]/div[2]/input[1]]<br />
+                                Password[[ChromeDriver: chrome on windows (9eeb4bb7227956c86fc74071f5b4acbc)] -&gt; xpath: //body/div[@id=&apos;app&apos;]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/form[1]/div[2]/div[1]/div[2]/input[1]]<br />
+                                Login button[[ChromeDriver: chrome on windows (9eeb4bb7227956c86fc74071f5b4acbc)] -&gt; xpath: //body/div[@id=&apos;app&apos;]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/form[1]/div[3]/button[1]]<br />
+                                get [[ChromeDriver: chrome on windows (9eeb4bb7227956c86fc74071f5b4acbc)] -&gt; xpath: //p[@class=&apos;oxd-text oxd-text--p oxd-alert-content-text&apos;]]<br />
+                  </div>
+    
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  verifyErrorMessageWithInvalidCredentials
+      </td>
+  <td class="duration">
+    0.682s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        Username[[ChromeDriver: chrome on windows (d7c2a0c99d731c2565a30be7d5894c1b)] -&gt; xpath: //body/div[@id=&apos;app&apos;]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/form[1]/div[1]/div[1]/div[2]/input[1]]<br />
+                                Password[[ChromeDriver: chrome on windows (d7c2a0c99d731c2565a30be7d5894c1b)] -&gt; xpath: //body/div[@id=&apos;app&apos;]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/form[1]/div[2]/div[1]/div[2]/input[1]]<br />
+                                Login button[[ChromeDriver: chrome on windows (d7c2a0c99d731c2565a30be7d5894c1b)] -&gt; xpath: //body/div[@id=&apos;app&apos;]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/form[1]/div[3]/button[1]]<br />
+                  </div>
+    
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  verifyUserShouldLogOutSuccessFully
+      </td>
+  <td class="duration">
+    4.427s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        Username[[ChromeDriver: chrome on windows (5dca050c1f1ccb3053ef98fa0a778a81)] -&gt; xpath: //body/div[@id=&apos;app&apos;]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/form[1]/div[1]/div[1]/div[2]/input[1]]<br />
+                                Password[[ChromeDriver: chrome on windows (5dca050c1f1ccb3053ef98fa0a778a81)] -&gt; xpath: //body/div[@id=&apos;app&apos;]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/form[1]/div[2]/div[1]/div[2]/input[1]]<br />
+                                Login button[[ChromeDriver: chrome on windows (5dca050c1f1ccb3053ef98fa0a778a81)] -&gt; xpath: //body/div[@id=&apos;app&apos;]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/form[1]/div[3]/button[1]]<br />
+                                user profile[[ChromeDriver: chrome on windows (5dca050c1f1ccb3053ef98fa0a778a81)] -&gt; xpath: //p[contains(text(),&apos;manda user&apos;)]]<br />
+                                Logout[[ChromeDriver: chrome on windows (5dca050c1f1ccb3053ef98fa0a778a81)] -&gt; xpath: //a[contains(text(),&apos;Logout&apos;)]]<br />
+                                Login[[ChromeDriver: chrome on windows (5dca050c1f1ccb3053ef98fa0a778a81)] -&gt; tag name: h5]<br />
+                  </div>
+    
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  verifyUserShouldLoginSuccessFully
+      </td>
+  <td class="duration">
+    1.549s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        Username[[ChromeDriver: chrome on windows (18619ec9d634fabfff33c2bceb048e6f)] -&gt; xpath: //body/div[@id=&apos;app&apos;]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/form[1]/div[1]/div[1]/div[2]/input[1]]<br />
+                                Password[[ChromeDriver: chrome on windows (18619ec9d634fabfff33c2bceb048e6f)] -&gt; xpath: //body/div[@id=&apos;app&apos;]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/form[1]/div[2]/div[1]/div[2]/input[1]]<br />
+                                Login button[[ChromeDriver: chrome on windows (18619ec9d634fabfff33c2bceb048e6f)] -&gt; xpath: //body/div[@id=&apos;app&apos;]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/form[1]/div[3]/button[1]]<br />
+                  </div>
+    
+
+      </td>
+</tr>
+      </table>
+  
+</body>
+</html>
